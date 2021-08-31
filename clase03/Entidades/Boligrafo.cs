@@ -30,24 +30,42 @@ namespace Entidades
         private void SetTinta(short tinta)
         {
             
-            if (tinta > 0 && this.tinta + tinta <= cantidadTintamaxima)
+            if (tinta > 0 && this.tinta + tinta <= cantidadTintamaxima || tinta < 0 && this.tinta - tinta >= 0)
             {
                 this.tinta += tinta;
                 
-            }
-            else if (tinta < 0 && this.tinta - tinta >= 0)
-            {
-                this.tinta -= tinta;
             }
         }
 
         public void Recargar()
         {
-            SetTinta((short)(this.tinta - cantidadTintamaxima));
+            SetTinta((short)(tinta - cantidadTintamaxima));
         }
 
         public bool Pintar(short gasto, out string dibujo)
         {
+            bool rta = true;
+
+            StringBuilder sb = new StringBuilder();
+
+            if (gasto >= tinta)
+            {
+                sb.Append('*', tinta);
+
+                SetTinta((short)(tinta * -1));
+
+                dibujo = sb.ToString();
+            }
+            else
+            {
+                sb.Append('*', gasto);
+
+                SetTinta((short)(gasto * -1));
+
+                dibujo = sb.ToString();
+            }
+
+            return rta;
 
         }
 
