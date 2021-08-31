@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj": {}
+    "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj": {
+    "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj",
+        "projectUniqueName": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj",
         "projectName": "clase02",
-        "projectPath": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj",
+        "projectPath": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\clase02\\clase02.csproj",
         "packagesPath": "C:\\Users\\54114\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\clase02\\obj\\",
+        "outputPath": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\clase02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54114\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj": {
-                "projectPath": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj"
+              "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj": {
+                "projectPath": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj": {
+    "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj",
+        "projectUniqueName": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj",
         "projectName": "entidades",
-        "projectPath": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj",
+        "projectPath": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\entidades\\entidades.csproj",
         "packagesPath": "C:\\Users\\54114\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\54114\\source\\repos\\clasesProgramacionII\\clase02\\entidades\\obj\\",
+        "outputPath": "D:\\Desktop\\programacion II segundo recursada\\clasesProgramacionII\\clase02\\entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54114\\AppData\\Roaming\\NuGet\\NuGet.Config",
