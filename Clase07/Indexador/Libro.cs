@@ -8,12 +8,16 @@ namespace Indexador
 
         private List<string> paginas;
 
+        public Libro()
+        {
+            paginas = new List<string>();
+        }
         public string this[int i]
         {
             get
             {
                 string rta = "";
-                if (i >= 0) 
+                if (i >= 0 && i < paginas.Count) 
                 {
                     rta = paginas[i];
                 }
@@ -22,13 +26,13 @@ namespace Indexador
             }
             set
             {
-                if(i <= paginas.Count && i >= 0)
+                //if(  i >= 0 && i <= paginas.Count)
+                //{
+                //    paginas.Add(value);
+                //}
+                 if(i >= 0)
                 {
-                    paginas[i] = value;
-                }
-                else if(i > paginas.Count)
-                {
-                    paginas.Add(value);
+                    paginas.Insert(i , value);
                 }
             }
         }
