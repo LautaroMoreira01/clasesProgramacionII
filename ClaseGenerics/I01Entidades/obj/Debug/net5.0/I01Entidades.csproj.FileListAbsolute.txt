@@ -1,0 +1,12 @@
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.csproj.AssemblyReference.cache
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.AssemblyInfoInputs.cache
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.AssemblyInfo.cs
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.csproj.CoreCompileInputs.cache
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\bin\Debug\net5.0\I01Entidades.deps.json
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\bin\Debug\net5.0\I01Entidades.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\bin\Debug\net5.0\ref\I01Entidades.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\bin\Debug\net5.0\I01Entidades.pdb
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\ref\I01Entidades.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseGenerics\I01Entidades\obj\Debug\net5.0\I01Entidades.pdb
