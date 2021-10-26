@@ -87,6 +87,10 @@ namespace I03
                 MessageBox.Show("No se guardo el archivo por nombre invalido.", "Alert!!!" , MessageBoxButtons.OKCancel , MessageBoxIcon.Error);
 
             }
+            else
+            {
+               
+            }
             
             
         }

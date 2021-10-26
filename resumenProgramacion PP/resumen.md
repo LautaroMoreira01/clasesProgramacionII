@@ -158,7 +158,7 @@ La idea principal es que cuando ocurra un cambio no deberiamos necesitar actuali
 (Modificador de acceso) (Otros modificadores) (Tipo de retorno) (Nmbre identificador) (Parametros de entrada)
 ~~~
 
-~~~
+~~~ c#
 Private static string Mostrar(primerParametro , segundo parametro)
 {
 
@@ -167,6 +167,7 @@ Private static string Mostrar(primerParametro , segundo parametro)
 #####Clases estaticas.
 Son agrupadores de atributos y metodos estaticos.
 *Para declarar una clase se debe indicar*
+**Agrupan datos y comportamietos que no estan asociados a un objeto.**
 ~~~
 (Modificador de visibilidad (puede ser internal o public)) static class (Nombre de la clase)
 ~~~
@@ -215,13 +216,13 @@ ___
     : Ejemplo: en una persona podemos fijarnos solamente en una parte que nos importe por ejemplo podemos mirar la cabeza ignorando el resto del cuerpo.
 - **Encapsulamiento**
     : Agrupa datos y acciones relacionados a un objeto ocultando los detalles y protegiendo el acceso a los datsos.
-    : Ejemplo: En una persona la piel nos oculta todo lo de dentro, nosotros no vemos como respiramos o como se digiere la comida.
+    : Ejemplo: Un telefono celular puede hacer distintas cosas como hacer llamadas, tomar fotos, reproducir musica pero no nos importa como hace esas cosas.
 - **Herencia**
     : Se trata de reutilizar codigo partiendo de una clase mas general (padre o base) que compartira su estructura y funcionalidad a las clases mas especificas.
-    : Ejemplo en una empresa Todos son personas pero tienen distintas cualidades o hacen distintas cosas por ejemplo un jefe no tiene las mismas actividades que una persona de limpieza o capaz un pasante no tiene sueldo.
+    : Ejemplo en una empresa Todos son personas pero tienen distintas cualidades o hacen distintas cosas por ejemplo un jefe no tiene las mismas actividades que una persona de limpieza. 
 - **Polirmorfismo**
     : Se trata de que una clase hija o derivada pueda redefinir una determinada accion heredada de una clase padre o base.
-    : ejemplo una persona puede ser de distintos tipos o ir cambiando de clase.
+    : Ejemplo: Una mujer puede ser distintas cosas como madre, escritora, estudiante, etc. Una persona puede tener distintos roles.
 #### Clases.
 *Es una descripcion de un conjunto de objetos que comparten los mismos metodos, atributos, relaciones y semantica en un determinado contexto.*
 ##### Como se compone una clase?
@@ -343,9 +344,191 @@ Nos permite modificar valores de nuestros atributos o acceder a ellos.
 ####Controles.
 Componentes reutilizables que encapsulan funcionalidad de una interfaz grafica.
 
-<a name ="clase06">
-<a name ="clase07">
-<a name ="clase08">
-<a name ="clase09">
+<a name ="clase06"> </a>
+###Clase 06
+###Colecciones
+
+####Matrices
+
+Las matrices, arrays, arreglos o vectores, son estructuras de datos que nos permiten almacenar multiples variables del mismo tipo;
+
+#####Caracteristicas
+- Dimencionalidad
+    : Las matrices pueden ser unidimencionales, bidimiencionales o multidimecionales.
+- Tamaño fijo
+    : La cantidad y el tamaño de las dimeciones son establecidos al momento de instanciar la matriz y no pueden ser cambiados.
+- Indexador base 0
+    : Se dice que tienen indexacion base cero porque sus elementos pueden ser accedidos a travez de un indice numerico que comienza en 0. 
+#####Matrices unidimencionales
+Objetos cuya instancia que debe ser creada. Para crearla se usa new especificando el tipo de elemento de la matriz y el numero de elementos.
+
+####Inicializacion de matrices.
+~~~
+string[] arrayString = new string[6];
+~~~
+*Se puede inicializar los elementos cuando se declara*
+~~~
+int[] a = new int[] { 1, 3, 5, 7, 9 };
+~~~
+*Se puede omitir el operador new y el tipo cuando se inicializa una matriz luego de la declaracion.*
+~~~
+int[] array2 = { 1, 3, 5, 7, 9 };
+~~~
+
+#####Matrices multidimecionales
+Matrices que pueden tener mas de una dimencion.
+
+####Inicializacion de matrices multidimencionales.
+~~~
+int[,] array = new int[3, 2];
+~~~
+*Se puede inicializar los elementos cuando se declara*
+~~~
+int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+~~~
+
+#####Matrices escalonadas *(o jagged array)*.
+Matriz de matrices posiblemente de distinto tamaños.
+
+####Colecciones
+Objetos especializados en almacenar, organizar, y administrar gran cantidad de datos.
+
+#####Caracteristicas
+- Tamaño dinamico
+  : El tamaño no es fijo sino que se incrementa y disminuye dinamicamente.
+- Capacidad para enumerar la coleccion
+  : Las colecciones implementan la interfaz IEnumerable, permite recorrerlas con un bucle foreach
+- Capacidad para copiar el contenido de la coleccion a una matriz
+  : Todas las colecciones pueden copiarse a una matriz por el metodo CopyTo
+- indexacion base 0.
+  : Todas las colecciones indexadas tienen un indice base 0
+
+#####Tipos de colecciones.
+- Genericas 
+  : Contenidas en el name space `System.Collection.Generic`. En este tipo de colecciones todos los elementos tienen el mismo tipo de dato.
+
+Tipos de listas genericas.  
+|Clase|Descripcion|
+|--|--|
+|Dictionary\<Tkey , TValue>|Representa coleccion de pares clave/Valor que se organizan en funcion de la clave|
+|List\<T>|Representa una lista de objetos a los que se puede acceder por un indice numerico. Propociona metodos para buscar, ordenar y modificar la lista |
+|Queue\<T>|Representa coleccion de objetos que se procesa en orden **FIFO**|
+|Stack\<T>|Representa coleccion de objetos que se procesa en orden **LIFO**|
+|SortedList\<TKey , TValue>|Representa coleccion de pares clave / valor que se ordenan  por clave |
+
+
+- NO genericas
+  : Contenidas en el name space `System.Collection`. Este tipo de colecciones no cuenta con seguridad de tipos. Sino que almacenan datos de tipo **Object**. 
+
+Tipos de listas no genericas.  
+|Clase|Descripcion|
+|--|--|
+|ArrayList|Representa una matriz de objetos cuyo tamaño aumenta dinamicamente segun sea necesario|
+|HashTable|Representa una coleccion de pares clave/valor que se organizan en funcion del codigo hash de la clave |
+|Queue|Representa coleccion de objetos que se procesa en orden **FIFO**|
+|Stack | Representa coleccion de objetos que se procesa en orden **LIFO**|
+
+<a name ="clase07"> </a>
+###Clase07
+###Encapsulamiento
+Es agrupar datos y operaciones en una clase aislandolas del exterior ocultando su informacion y protegiendola.
+
+Para aplicar la encapusulacion se utilizan los modificadores de acceso en metodos o atributos de la clase.
+Algunos modificadores de acceso son.
+|Nombre|Caracteristicas|
+|--|--|
+|Public|Se puede acceder desde cualquier clase en el mismo proyecto u otro proyecto que haga referencia a el|
+|Private|Solo accesible desde su misma clase|
+|Protected|Accesible solamente desde su clase o su derivada|
+|Internal|Accesible solamente desde cualquier parte de codigo dentro del mismo proyecto|
+|Protected internal|Se puede acceder a una clase o miembro protected internal desde cualquier código en el proyecto en el que está declarado, o desde una clase derivada en otro proyecto.|
+|Private Protected|Se puede acceder a una clase o miembro private protected sólo en la clase que lo declaró o sus derivadas siempre dentor del mismo proyecto.|
+
+
+#### Propiedades
+Miembro que proporciona mecanismo para leer escribir o calcular el valor de un campo.
+
+Las propiedades permiten que una clase exponga una forma pública de obtener y establecer valores, mientras oculta el código de implementación o validación.
+
+####Indexadores 
+#####Que es indexar?
+Es ordenar una serie de datos o informacion de acuerdo a un criterio comun a todos ellos, para facilitar su consulta y analisis a traves de un indice.
+
+Caracteristicas.
+- Pueden trabajar con mas de un indice.
+- Se pueden indexar por cualquier tipo
+- Se pueden sobrecargar
+- NO se pueden declarar indexadores estaticos
+
+####Enumerado 
+Tipo de dato que representa un conjunto de constantes numericas.
+Sirven para definir y limitar el conjunto de valores que pueden ser asignados a una variable o parametro de entrada. 
+Sus valores son numeros enteros y son base 0.
+
+<a name ="clase08"></a>
+####Clase 08
+####Herencia 
+Se conoce como **herencia** a la relacion entre una o mas clases en 
+la que se ccomparten los atributos y metodos definidos en otra clase.
+
+La idea y el objetivo principal es crear una clase base que defina un comportamiento y caracteristicas que luego seran usadas en otra clase.
+
+**IMPORTANTE**
+- **Las clases derivadas heredan todos los miembros de la clase base menos los constructores.**
+- **La accesibilidad de una clase derivada no puede ser mayoy a la de su clase base.**
+- **Los miembros de una clase base implicitamnet ese convierten en miembros publicos de la clase derivada**
+- **Aunque una clase herede todos los miembros si estos son privados solo la clase base tiene accesos a ellos aunque la clase derivada tambien los hereda.**
+  
+#####Herencia simple
+En la herencia simple una clase derivada hereda de una sola clase base, adquiriendo todos sus mienmbros *MENOS LOS CONSTRUCTORES*.
+
+#####Herencia multinivel
+
+Esta se da cuando una clase derivada hereda de otra clase derivada que a su vez hereda de otra clase.
+
+Esto se conoce como transitividad: Si una clase `C` hereda de una clase `B` y, a su vez `B` hereda de `A`, entonces `C` tambien hereda de `A`. 
+
+#####Herencia jerarquica
+Es cuando una clase sirve de base de mas de un sub-tipo. 
+
+#####Herencia hibrida
+Es cuando se mezclan dos o mas tipos de herencias.
+
+####S.O.L.I.D *(Principio de sustitucion de liskov)*
+Barbara liskov propuso que cada clase que hereda de otra debe poder usarse como su padre sin necesidad de conocer las diferencias entre ellas. osea poder llamar al mismo metodo que exista en la clase padre sin importar que tipo son las hijas.
+
++ Si `S` hereda de `T`, entonces los objetos de tipo `T` podrán ser reemplazados por objetos del tipo `S`. 
+
+######Beneficios de aplciar herencia.
+- simplificar el codigo al definir una clase que especifica elementos comunes a dos o mas clases derivadas. Ayudandonos a eliminar la duplicacion de codigo y datos, reutilizando elementos comunes a objetos relacionados.
+- nos permite organizar de manera mas optima las clases que componen la realizad de nuestro programa, agrupandolas por criterios que compartan.
+
+######Riesgos de aplicar herencia.
+
+La herencia es una herramienta muy fuerte pero a la vez puede ser complicada de implementar ya que agrega complejidad al codigo.
+
+######composicion.
+Es la idea de que un objeto contiene o esta compuesta de otros objetos.
+
+######Clase sellada.
+Son clases que no pueden ser clase base.
+
+<a name ="clase09"></a>
+####Clase 09
+####Polimorfismo
+Habilidad que tienen los objetos de responder al mismo mensaje de distintaso formas.
+#####Polimorfismo basado en herencia.
+Para implementar la herencia polimorfica se debe declarar el metodo a sobre escribir como abstract o virtual, y redefinirlo con override. Asi se sabra como distinguirlo en tiempo de ejecucicon el tipo real en memoria.
+La palabra reservada `virtual` se usa para declarar un método que pueda ser sobrescrito por una clase derivada. La palabra reservada `override` se usa para sobrescribir un método virtual de la clase base.
+
+####Clases abstractas.
+Estas clases no se pueden instanciar, su propósito es proporcionar una definición común que modele una jerarquía de herencia.
+####Metodos abstractos.
+Los métodos abstractos no tienen implementación, por lo que la definición del método va seguida de un ; en lugar del cuerpo del método. Las clases derivadas de la clase abstracta deben dar una implementación a todos los métodos abstractos. 
+
+
+
  
+
+
 

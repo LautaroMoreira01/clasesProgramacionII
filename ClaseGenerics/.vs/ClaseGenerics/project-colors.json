@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "06633104-5986-40d1-a9b1-8292df3cedf0": {
+      "ProjectGuid": "06633104-5986-40d1-a9b1-8292df3cedf0",
+      "DisplayName": "I01Entidades",
+      "ColorIndex": 0
+    },
+    "2ec28229-7aea-4853-b977-41cac95f9e6c": {
+      "ProjectGuid": "2ec28229-7aea-4853-b977-41cac95f9e6c",
+      "DisplayName": "I01",
+      "ColorIndex": 1
+    },
+    "8059df38-59b6-4e0a-83fd-42859a47d6e1": {
+      "ProjectGuid": "8059df38-59b6-4e0a-83fd-42859a47d6e1",
+      "DisplayName": "I02Entidades",
+      "ColorIndex": 2
+    },
+    "86d57656-106c-4781-9761-6d6cadf56589": {
+      "ProjectGuid": "86d57656-106c-4781-9761-6d6cadf56589",
+      "DisplayName": "I02",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
