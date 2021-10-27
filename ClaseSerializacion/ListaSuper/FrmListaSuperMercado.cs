@@ -31,6 +31,7 @@ namespace ListaSuper
             {
                 listaCompras.Add(frmAltaModificacion.Objeto);
                 ActualizarLista();
+                SerializarAXml<List<string>>(listaCompras);
             }
         }
 
@@ -40,6 +41,7 @@ namespace ListaSuper
             {
                 listaCompras.RemoveAt(lstObjetos.SelectedIndex);
                 ActualizarLista();
+                SerializarAXml(listaCompras);
             }
         }
 
@@ -54,6 +56,7 @@ namespace ListaSuper
                     listaCompras.RemoveAt(lstObjetos.SelectedIndex);
                     listaCompras.Add(frmAltaModificacion.Objeto);
                     ActualizarLista();
+                    SerializarAXml(listaCompras);
                 }
 
             }
@@ -81,9 +84,9 @@ namespace ListaSuper
         {
             listaCompras = new List<string>();
             
-            path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             
-            Path.Combine(path, "listaSupermercado.xml");
+            path =  Path.Combine(path, "listaSupermercado.xml");
             
             if (File.Exists(path))
             {
@@ -98,13 +101,20 @@ namespace ListaSuper
         private T DeserializarDeXml<T>(string path) 
             where T : class
         {
-            List<string> list = new List<string>();
-
             using (StreamReader streamReader = new StreamReader(path))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
-                T objeto = xmlSerializer.Deserialize(streamReader) as T;
-                return objeto;
+                return xmlSerializer.Deserialize(streamReader) as T;
+            }
+        }
+       
+        private void SerializarAXml<T>(T item) 
+            where T : class
+        {
+            using (StreamWriter streamWriter= new StreamWriter(path))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
+                xmlSerializer.Serialize(streamWriter, item);
             }
         }
         private void ActualizarLista()

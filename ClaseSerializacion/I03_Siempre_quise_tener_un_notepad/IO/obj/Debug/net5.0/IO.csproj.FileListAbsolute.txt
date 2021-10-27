@@ -1,0 +1,12 @@
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\bin\Debug\net5.0\IO.deps.json
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\bin\Debug\net5.0\IO.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\bin\Debug\net5.0\ref\IO.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\bin\Debug\net5.0\IO.pdb
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.csproj.AssemblyReference.cache
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.AssemblyInfoInputs.cache
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.AssemblyInfo.cs
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.csproj.CoreCompileInputs.cache
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\ref\IO.dll
+D:\Desktop\Lautaro\clasesProgramacionII\ClaseSerializacion\I03_Siempre_quise_tener_un_notepad\IO\obj\Debug\net5.0\IO.pdb

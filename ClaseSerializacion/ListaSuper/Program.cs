@@ -17,7 +17,7 @@ namespace ListaSuper
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmListaSuperMercado());
+           Application.Run(new FrmListaSuperMercado());
         }
     }
 }
