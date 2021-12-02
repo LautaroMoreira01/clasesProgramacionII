@@ -1,0 +1,21 @@
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.csproj.AssemblyReference.cache
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.AssemblyInfoInputs.cache
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.AssemblyInfo.cs
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.csproj.CoreCompileInputs.cache
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02Console.exe
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02Console.deps.json
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02Console.runtimeconfig.json
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02Console.runtimeconfig.dev.json
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02Console.dll
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\ref\I02Console.dll
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02Console.pdb
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\NameGenerator.dll
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\System.Text.Json.dll
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02-Simulador de atencion a clientes- HILOS.dll
+D:\Desktop\Hilos\I02Console\bin\Debug\net5.0\I02-Simulador de atencion a clientes- HILOS.pdb
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.csproj.CopyComplete
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.dll
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\ref\I02Console.dll
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.pdb
+D:\Desktop\Hilos\I02Console\obj\Debug\net5.0\I02Console.genruntimeconfig.cache

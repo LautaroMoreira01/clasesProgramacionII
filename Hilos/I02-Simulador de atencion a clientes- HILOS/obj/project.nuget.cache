@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HGA74S5MMZ042J9U+aSazhN1NrtVPaL0CyvljkgljPwE76fupN+MIZsMGiDkztYv7Gxunyorpa4+YrnOVVUD+w==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\Hilos\\I02-Simulador de atencion a clientes- HILOS\\I02-Simulador de atencion a clientes- HILOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lauty\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\lauty\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

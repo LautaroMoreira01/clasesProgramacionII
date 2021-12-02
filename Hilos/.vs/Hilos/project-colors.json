@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8808d7dc-d414-49c2-97e0-28e1b36cc35d": {
+      "ProjectGuid": "8808d7dc-d414-49c2-97e0-28e1b36cc35d",
+      "DisplayName": "I02-Simulador de atencion a clientes- HILOS",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2dbe034e-9de3-4f6d-8939-d7c4f00c0287": {
+      "ProjectGuid": "2dbe034e-9de3-4f6d-8939-d7c4f00c0287",
+      "DisplayName": "I02",
+      "ColorIndex": 1
+    },
+    "39c829ad-8818-4010-9ab2-e7287d325e1d": {
+      "ProjectGuid": "39c829ad-8818-4010-9ab2-e7287d325e1d",
+      "DisplayName": "I02Console",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -13,7 +13,7 @@ namespace IO
     {
         protected override string Extension
         {
-            get { return "json"; }
+            get { return ".json"; }
         } 
 
         public void Guardar(string ruta, T contenido)

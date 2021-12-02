@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mFkvzWULEQweK3yWAU/a/KhSzfnTGyw8l06rFK7K2aplAzgOgyPG3+1vT9l9/T+mQSUK1uI+TOydtBXRwaEOYg==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\Hilos\\I02Console\\I02Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lauty\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\lauty\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

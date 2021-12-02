@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eac9d472-8344-44ff-bed6-e12eeb0d3fff": {
+      "ProjectGuid": "eac9d472-8344-44ff-bed6-e12eeb0d3fff",
+      "DisplayName": "testGraficos",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,16 @@
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\EvTecnica.exe
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\EvTecnica.deps.json
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\EvTecnica.runtimeconfig.json
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\EvTecnica.runtimeconfig.dev.json
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\EvTecnica.dll
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\ref\EvTecnica.dll
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\bin\Debug\net5.0\EvTecnica.pdb
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.csproj.AssemblyReference.cache
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.AssemblyInfoInputs.cache
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.AssemblyInfo.cs
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.csproj.CoreCompileInputs.cache
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.dll
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\ref\EvTecnica.dll
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.pdb
+D:\Desktop\Lautaro\clasesProgramacionII\EvTecnica\EvTecnica\obj\Debug\net5.0\EvTecnica.genruntimeconfig.cache
